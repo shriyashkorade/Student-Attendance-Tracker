@@ -78,5 +78,5 @@ Have suggestions or found a bug?
 ## 🧑‍💻 Author
 
 Shriyash Korade
-- [linkedin](www.linkedin.com/in/shriyash-korade)
+- [linkedin](https://www.linkedin.com/in/shriyash-korade/)
 
