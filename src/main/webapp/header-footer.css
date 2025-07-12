@@ -1,0 +1,108 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure full-width layout for header and footer */
+header, footer {
+    width: 100%; /* Ensure header and footer span full width */
+    padding: 0 15px; /* Adds some padding on the sides */
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    background-color: #002d55; /* Dark navy blue for header */
+    color: white;
+    padding: 20px 0; /* Increased height */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.header-container {
+    width: 100%;
+    max-width: 1200px; /* Optional: limit max width for content */
+    margin: 0 auto; /* Centers the header content */
+    padding: 0 20px; /* Optional: adds padding inside the container */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem; /* Increased logo size */
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: text-decoration 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40; /* Dark gray background for footer */
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 10px; /* Increased height */
+    font-size: 0.9rem;
+    margin-top: 40px; /* Adds space between content and footer */
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px; /* Optional: limit max width for footer content */
+    margin: 0 auto; /* Centers the footer content */
+    padding: 0 20px; /* Optional: adds padding inside the container */
+}
+
+.footer-container a {
+    color: #f8f9fa; /* Light color for footer links */
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Responsive Navigation */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column; /* Stack nav items on small screens */
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack links vertically */
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem; /* Adjust logo size for small screens */
+    }
+    
+
+
+    
+}

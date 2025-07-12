@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* teacher_dashboard.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #004080;
+}
+
+.error-message {
+    background-color: #fdd;
+    border: 1px solid #e55;
+    color: #a00;
+    padding: 12px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.success-message {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    padding: 12px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.teacher-info, .subject-info, .students-list, .attendance-form {
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #0073e6;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f7ff;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="date"] {
+    padding: 6px 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-submit {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.btn-attendance-summary {
+    padding: 8px 16px;
+    background-color: #28a745;  /* nice green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-attendance-summary:hover {
+    background-color: #218838; /* darker green on hover */
+}
+
+.btn-submit:hover {
+    background-color: #005bb5;
+}
