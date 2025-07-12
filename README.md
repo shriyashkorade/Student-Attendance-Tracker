@@ -6,7 +6,7 @@
 - 🔐 Role-based login (Admin, Teacher, Student)
 
 - 🧑‍🏫 Teachers can mark attendance by date & subject
-- 
+  
 - 🧑‍🎓 Students can view attendance & select electives
 
 - 📅 Date-wise attendance tracking
