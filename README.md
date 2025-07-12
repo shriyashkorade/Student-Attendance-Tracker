@@ -20,30 +20,30 @@
 
 ## 🛠️ Tech Stack
 
-💻 Java, JSP, Servlets, JDBC
+- 💻 Java, JSP, Servlets, JDBC
 
-🗄️ MySQL
+- 🗄️ MySQL
 
-🌐 Apache Tomcat
+- 🌐 Apache Tomcat
 
-🧰 Eclipse IDE / IntelliJ
+- 🧰 Eclipse IDE / IntelliJ
 
-🧩 HTML5, CSS3
+- 🧩 HTML5, CSS3
 
 
 
 
 ## 📦 Installation
 
-git clone this repo
+- git clone this repo
 
-Import in Eclipse/IntelliJ
+- Import in Eclipse/IntelliJ
 
-Set up MySQL & import attendance_db_schema.sql
+- Set up MySQL & import attendance_db_schema.sql
 
-Configure DB credentials in DBConnection.java
+- Configure DB credentials in DBConnection.java
 
-Run using Apache Tomcat
+- Run using Apache Tomcat
 
 
     
@@ -51,27 +51,27 @@ Run using Apache Tomcat
 
 - ✅ Core attendance flow
 
-✅ Elective selection
+- ✅ Elective selection
 
-🟡 Admin overview dashboard
+- 🟡 Admin overview dashboard
 
-🔜 Analytics + Charts
+- 🔜 Analytics + Charts
 
 
 
 ## 🧠 Optimizations
 
-🔐Password encryption
+- 🔐Password encryption
 
-📈 Attendance visualization
+- 📈 Attendance visualization
 
-📬 Email alert for low attendance
+- 📬 Email alert for low attendance
 
 
 
 ## 📬 Feedback
 
-Have suggestions or found a bug?
+- Have suggestions or found a bug?
 👉 Open an issue or message me on LinkedIn!
 
 
